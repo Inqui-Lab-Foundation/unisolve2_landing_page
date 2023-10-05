@@ -72,7 +72,7 @@ Author: Webstrot
 
                         <div class="it_comp_logo_wrapper">
                             <a href="#">
-                                <img src="assets/img/TN_logo.jpg" alt="logo" />
+                                <img src="assets/img/TN_LOGO_SMALL.png" alt="logo" />
                             </a>
                         </div>
                     </div>
@@ -606,6 +606,12 @@ Business & Faster. </h2>
                         <div class="map_counter_box_shape">
                             <h3 id="institute_count"><span class="timer">89</span></h3>
                             <h4><i class="fas fa-university"></i> Institutions</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="map_counter_box_shape">
+                            <h3 id="teachers"><span class="timer">99</span></h3>
+                            <h4><i class="fas fa-users"></i> Teachers</h4>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -1246,6 +1252,7 @@ Business & Faster. </h2>
          var text2 = document.getElementById('student_count');
          var text3 = document.getElementById('student_ideas');
          var text4 = document.getElementById('name');
+         var text5 = document.getElementById('teachers')
            document.getElementById('namakkal')
             .addEventListener('mouseover', function(e) {
                 text.textContent =   api_data.dataValues[16].reg_schools;
@@ -1253,12 +1260,14 @@ Business & Faster. </h2>
                 text2.textContent = api_data.dataValues[16].students;
                 text3.textContent = api_data.dataValues[16].ideas;
                 text4.textContent = api_data.dataValues[16].district_name;
+                text5.textContent = api_data.dataValues[16].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1269,12 +1278,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[33].students;
                 text3.textContent =  api_data.dataValues[33].ideas;
                 text4.textContent = api_data.dataValues[33].district_name;
+                text5.textContent = api_data.dataValues[33].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1284,13 +1295,15 @@ Business & Faster. </h2>
                 text1.textContent =  api_data.dataValues[0].teams;
                 text2.textContent =  api_data.dataValues[0].students;
                 text3.textContent =  api_data.dataValues[0].ideas;
-                text4.textContent = api_data.dataValues[0].district_name;;
+                text4.textContent = api_data.dataValues[0].district_name;
+                text5.textContent = api_data.dataValues[0].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1301,12 +1314,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[17].students;
                 text3.textContent =  api_data.dataValues[17].ideas;
                 text4.textContent = api_data.dataValues[17].district_name;
+                text5.textContent = api_data.dataValues[17].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1317,12 +1332,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[29].students;
                 text3.textContent =  api_data.dataValues[29].ideas;
                 text4.textContent = api_data.dataValues[29].district_name;
+                text5.textContent = api_data.dataValues[29].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors
                 });
             });
 
@@ -1333,12 +1350,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[5].students;
                 text3.textContent =  api_data.dataValues[5].ideas;
                 text4.textContent = api_data.dataValues[5].district_name;
+                text5.textContent = api_data.dataValues[5].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors
                 });
             });
 
@@ -1349,12 +1368,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[21].students;
                 text3.textContent =  api_data.dataValues[21].ideas;
                 text4.textContent = api_data.dataValues[21].district_name;
+                text5.textContent = api_data.dataValues[21].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1365,12 +1386,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[14].students;
                 text3.textContent =  api_data.dataValues[14].ideas;
                 text4.textContent = api_data.dataValues[14].district_name;
+                text5.textContent = api_data.dataValues[14].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1381,12 +1404,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[24].students;
                 text3.textContent =  api_data.dataValues[24].ideas;
                 text4.textContent = api_data.dataValues[24].district_name;
+                text5.textContent = api_data.dataValues[24].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1397,12 +1422,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[37].students;
                 text3.textContent =  api_data.dataValues[37].ideas;
                 text4.textContent = api_data.dataValues[37].district_name;
+                text5.textContent = api_data.dataValues[37].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1413,12 +1440,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[8].students;
                 text3.textContent =  api_data.dataValues[8].ideas;
                 text4.textContent = api_data.dataValues[8].district_name;
+                text5.textContent = api_data.dataValues[8].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1429,12 +1458,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[4].students;
                 text3.textContent =  api_data.dataValues[4].ideas;
                 text4.textContent = api_data.dataValues[4].district_name;
+                text5.textContent = api_data.dataValues[4].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1445,12 +1476,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[31].students;
                 text3.textContent =  api_data.dataValues[31].ideas;
                 text4.textContent = api_data.dataValues[31].district_name;
+                text5.textContent = api_data.dataValues[31].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1461,12 +1494,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[12].students;
                 text3.textContent =  api_data.dataValues[12].ideas;
                 text4.textContent = api_data.dataValues[12].district_name;
+                text5.textContent = api_data.dataValues[12].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1477,12 +1512,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[20].students;
                 text3.textContent =  api_data.dataValues[20].ideas;
                 text4.textContent = api_data.dataValues[20].district_name;
+                text5.textContent = api_data.dataValues[20].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1493,12 +1530,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[36].students;
                 text3.textContent =  api_data.dataValues[36].ideas;
                 text4.textContent = api_data.dataValues[36].district_name;
+                text5.textContent = api_data.dataValues[36].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1509,12 +1548,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[34].students;
                 text3.textContent =  api_data.dataValues[34].ideas;
                 text4.textContent = api_data.dataValues[34].district_name;
+                text5.textContent = api_data.dataValues[34].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1525,12 +1566,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[32].students;
                 text3.textContent =  api_data.dataValues[32].ideas;
                 text4.textContent = api_data.dataValues[32].district_name;
+                text5.textContent = api_data.dataValues[32].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1541,12 +1584,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[11].students;
                 text3.textContent =  api_data.dataValues[11].ideas;
                 text4.textContent = api_data.dataValues[11].district_name;
+                text5.textContent = api_data.dataValues[29].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[29].reg_mentors;
                 });
             });
 
@@ -1557,12 +1602,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[26].students;
                 text3.textContent =  api_data.dataValues[26].ideas;
                 text4.textContent = api_data.dataValues[26].district_name;
+                text5.textContent = api_data.dataValues[26].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1573,12 +1620,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[13].students;
                 text3.textContent =  api_data.dataValues[13].ideas;
                 text4.textContent = api_data.dataValues[13].district_name;
+                text5.textContent = api_data.dataValues[13].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1589,12 +1638,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[6].students;
                 text3.textContent =  api_data.dataValues[6].ideas;
                 text4.textContent = api_data.dataValues[6].district_name;
+                text5.textContent = api_data.dataValues[6].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1605,12 +1656,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[25].students;
                 text3.textContent =  api_data.dataValues[25].ideas;
                 text4.textContent = api_data.dataValues[25].district_name;
+                text5.textContent = api_data.dataValues[25].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1621,12 +1674,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[7].students;
                 text3.textContent =  api_data.dataValues[7].ideas;
                 text4.textContent = api_data.dataValues[7].district_name;
+                text5.textContent = api_data.dataValues[7].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1637,12 +1692,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[3].students;
                 text3.textContent =  api_data.dataValues[3].ideas;
                 text4.textContent = api_data.dataValues[3].district_name;
+                text5.textContent = api_data.dataValues[3].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1653,12 +1710,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[15].students;
                 text3.textContent =  api_data.dataValues[15].ideas;
                 text4.textContent = api_data.dataValues[15].district_name;
+                text5.textContent = api_data.dataValues[15].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1669,12 +1728,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[35].students;
                 text3.textContent =  api_data.dataValues[35].ideas;
                 text4.textContent = api_data.dataValues[35].district_name;
+                text5.textContent = api_data.dataValues[35].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1685,12 +1746,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[19].students;
                 text3.textContent =  api_data.dataValues[19].ideas;
                 text4.textContent = api_data.dataValues[19].district_name;
+                text5.textContent = api_data.dataValues[19].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1701,12 +1764,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[22].students;
                 text3.textContent =  api_data.dataValues[22].ideas;
                 text4.textContent = api_data.dataValues[22].district_name;
+                text5.textContent = api_data.dataValues[22].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1717,12 +1782,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[18].students;
                 text3.textContent =  api_data.dataValues[18].ideas;
                 text4.textContent = api_data.dataValues[18].district_name;
+                text5.textContent = api_data.dataValues[18].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1733,12 +1800,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[23].students;
                 text3.textContent =  api_data.dataValues[23].ideas;
                 text4.textContent = api_data.dataValues[23].district_name;
+                text5.textContent = api_data.dataValues[23].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1749,12 +1818,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[28].students;
                 text3.textContent =  api_data.dataValues[28].ideas;
                 text4.textContent = api_data.dataValues[28].district_name;
+                text5.textContent = api_data.dataValues[28].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1765,12 +1836,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[38].students;
                 text3.textContent =  api_data.dataValues[38].ideas;
                 text4.textContent = api_data.dataValues[38].district_name;
+                text5.textContent = api_data.dataValues[38].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1781,12 +1854,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[10].students;
                 text3.textContent =  api_data.dataValues[10].ideas;
                 text4.textContent = api_data.dataValues[10].district_name;
+                text5.textContent = api_data.dataValues[10].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1797,12 +1872,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[30].students;
                 text3.textContent =  api_data.dataValues[30].ideas;
                 text4.textContent = api_data.dataValues[30].district_name;
+                text5.textContent = api_data.dataValues[30].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1813,12 +1890,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[2].students;
                 text3.textContent =  api_data.dataValues[2].ideas;
                 text4.textContent = api_data.dataValues[2].district_name;
+                text5.textContent = api_data.dataValues[2].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1829,12 +1908,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[1].students;
                 text3.textContent =  api_data.dataValues[1].ideas;
                 text4.textContent = api_data.dataValues[1].district_name;
+                text5.textContent = api_data.dataValues[1].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
 
@@ -1845,12 +1926,14 @@ Business & Faster. </h2>
                 text2.textContent =  api_data.dataValues[9].students;
                 text3.textContent =  api_data.dataValues[9].ideas;
                 text4.textContent = api_data.dataValues[9].district_name;
+                text5.textContent = api_data.dataValues[9].reg_mentors;
                 addEventListener("mouseout", function(e) {
                 text.textContent =   api_data.dataValues[39].reg_schools;
                 text1.textContent = api_data.dataValues[39].teams;
                 text2.textContent = api_data.dataValues[39].students;
                 text3.textContent = api_data.dataValues[39].ideas;
                 text4.textContent = "TAMIL NADU"
+                text5.textContent = api_data.dataValues[39].reg_mentors;
                 });
             });
     </script>
