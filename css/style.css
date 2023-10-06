@@ -13648,7 +13648,7 @@ button:focus {
 	font-size: 16px;
 	margin-top: 12px;
 	font-weight: 400;
-	margin-right: 36px;
+	margin-right: 41px;
 	color: white;
 	text-transform: capitalize;
 	text-align: center;
@@ -25195,4 +25195,9 @@ button:focus {
 }
 .about2{
 	padding-bottom: 0px !important;
+}
+.popup{
+	color:#067de1;
+	font-size: 16px;
+	margin-left: 28px;
 }
