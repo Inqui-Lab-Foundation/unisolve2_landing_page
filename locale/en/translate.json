@@ -1,7 +1,7 @@
 [
   {
     "menu": {
-      "home": "About",
+      "home": "About Us",
       "roadmap": "Road Map",
       "impact": "Impact",
       "patners": "Patners",
@@ -18,6 +18,11 @@
       "desc": "Nurture a culture of social innovation and build skills while inspiring young people to become transformative leaders.",
       "signup": "Login",
       "register":"Register"
+    }
+  },
+  {
+    "vedio":{
+      "reg":"How to register?"
     }
   },
   {
@@ -60,7 +65,7 @@
   },
   {
     "aboutSection3": {
-    "title": "Here Are A Few Of",
+    "title": "Here Are A Few",
     "title2": "Student Ideas",
     "title1": "Emergency Watch for Children",
     "desc": "To increase the safety of women and to prevent them from vulnerable attacks an Emergency Smart Watch is proposed. In case of any emergencies switch on the watch can be pressed which will give alert to the parents through message. The location can also be sent through the GPS module present in the watch proving timely support for women.",
@@ -75,13 +80,18 @@
 {
   "impact": {
   "title": "Engagement & Impact",
-  "desc": "TAMILNADU"
+  "desc": "TAMILNADU",
+  "desc1": "Institutions",
+  "desc2": "Teachers",
+  "desc3": "Student Teams",
+  "desc4": "Students",
+  "desc5": " Ideas"
 }
 },
   {
     "roadmap": {
       "title": "Road Map",
-      "title1": "Four Simple Working Process",
+      "title1": "Four key phases of the program",
       "registration": "Awareness & Registration",
       "solving":"Problem Solving Journey",
       "submission":"Mentoring and Recognition",

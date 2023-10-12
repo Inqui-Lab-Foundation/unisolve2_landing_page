@@ -1463,16 +1463,12 @@ Copyright © 2019-20
                         items: 1,
                         nav: true
                     },
-                    500: {
+                    600: {
                         items: 2,
                         nav: true
                     },
-                    700: {
-                        items: 3,
-                        nav: true
-                    },
                     1000: {
-                        items: 4,
+                        items: 3,
                         nav: true,
                         loop: true,
                         margin: 20
