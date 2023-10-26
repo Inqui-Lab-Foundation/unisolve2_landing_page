@@ -3340,9 +3340,17 @@ Copyright © 2020-21
 	}
 	.lawyer_slider_wrapper .owl-theme .owl-nav .owl-prev {
 		left: -5px;
+		top: 79px;
+		height: 24px;
+		line-height: 16px;
+		width: 37px;
 	}
 	.lawyer_slider_wrapper .owl-theme .owl-nav .owl-next {
 		right: -5px;
+		top: 79px;
+		height: 24px;
+		line-height: 16px;
+		width: 37px;
 	}
 	.lawyer_about_shape_wrapper img {
 		width: 100%;
