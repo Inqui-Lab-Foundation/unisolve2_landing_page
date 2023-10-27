@@ -7027,7 +7027,7 @@ button:focus {
 
 .bussi_banner_image {
 	float: right;
-	background-image: url(../images/business/banner_img.jpg);
+	background-image: url(../images/agency_01/banner_img.jpg);
 	background-position: center 0;
 	background-size: cover;
 	position: relative;
@@ -23870,7 +23870,7 @@ button:focus {
 .web_tab_main_wrapper {
 	float: left;
 	width: 100%;
-	background: url(../images/web/tab_img.jpg);
+	background: url(../images/tab_img.jpg);
 	background-position: center 0;
 	background-size: cover;
 	height: 100%;
