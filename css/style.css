@@ -25149,7 +25149,7 @@ button:focus {
 }
 
 .map_color:hover {
-  fill: #067de1 !important;
+  fill: #FFC022 !important;
 }
 
 .map_counter_box_shape {
@@ -25200,4 +25200,9 @@ button:focus {
 	color:#067de1;
 	font-size: 16px;
 	margin-left: 28px;
+}
+
+.statTitle{
+	color: green !important;
+	font-weight: bold;
 }
